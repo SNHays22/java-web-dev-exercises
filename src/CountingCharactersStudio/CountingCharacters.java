@@ -3,7 +3,6 @@ package CountingCharactersStudio;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Scanner;
-import java.util.regex.Pattern;
 
 public class CountingCharacters {
     public static void main(String[] args) {
@@ -49,9 +48,5 @@ public class CountingCharacters {
             System.out.println(oneChar.getKey() + ":" + oneChar.getValue());
         }
 
-
-
-        //loop thru array  --> if char not a key value = 1
-        //else value += 1
     }
 }
